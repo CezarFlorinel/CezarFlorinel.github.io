@@ -1,0 +1,5 @@
+Student name: Cezar Ciobanu
+Student number: 706431
+Student class: IT1C
+URL student GitHub website: https://cezarflorinel.github.io/
+URL student GitHub repository: https://github.com/CezarFlorinel/CezarFlorinel.github.io

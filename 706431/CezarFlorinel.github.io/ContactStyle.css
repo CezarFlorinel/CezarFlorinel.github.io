@@ -1,0 +1,321 @@
+
+
+a:link {
+    color: #b88600;
+}
+
+
+a:visited {
+    color: #eeff44;
+}
+
+
+a:hover {
+    color: #52ba48;
+}
+
+
+a:active {
+    color: #483d8b;
+}
+
+@media screen and (min-width: 930px) { /*Resolution for :  PC */
+    #gridContainerHead {
+        display: grid;
+        grid-template-areas:
+            'img img img '
+            'h1 h1 h1 '
+            'h2 h2 h2 '
+            'nav nav nav ';
+    }
+
+    img {
+        grid-area: img;
+        
+    }
+
+    h1 {
+        grid-area: h1;
+        
+    }
+
+    h2 {
+        grid-area: h2;
+       
+    }
+
+    nav {
+        grid-area: nav;
+        background-color: #008080;
+    }
+
+
+    #t1 {
+        display: inline-block;
+    }
+
+    #t2 {
+        display: inline-block;
+    }
+
+    #t3 {
+        display: inline-block;
+    }
+
+    /*-------------------------------------------------------------------*/
+
+    #gridContainer {
+        display: grid;
+        grid-template-areas:
+            ' par par par '
+            'form form aside '
+            'fo fo Box '
+    }
+
+    #infoP {
+        grid-area: par;
+        color: #990033;
+        letter-spacing: 1px;
+    }
+
+    form {
+        grid-area: form;
+        color: #78ebff;
+    }
+
+    aside {
+        grid-area: aside;
+       
+    }
+
+    footer {
+        grid-area: fo;
+        border-color: #22a07a;
+        border-style:double;
+        border-width:10px;
+    }
+
+    #CookieStatementBox {
+        height: 100px;
+        width: 100px;
+        background-color: #FA0;
+        color: #FFF;
+        opacity: 50%;
+        grid-area: Box;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+    }
+     #pic1{
+         width:10em;
+         height:10em;
+     }
+    #pic2 {
+        width: 10em;
+        height: 10em;
+    }
+    #pic3 {
+        width: 10em;
+        height: 10em;
+    }
+
+}
+
+@media screen and (min-width: 720px) and (max-width: 929px) { /*Resolution for : Tablet */
+    #gridContainerHead {
+        display: grid;
+        grid-template-areas:
+            'img img img '
+            'h1 h1 h1 '
+            'h2 h2 h2 '
+            'nav nav nav ';
+    }
+
+
+    #t1 {
+        display: inline-block;
+    }
+
+    #t2 {
+        display: inline-block;
+    }
+
+    #t3 {
+        display: inline-block;
+    }
+
+    img {
+        grid-area: img;
+     
+    }
+
+    h1 {
+        grid-area: h1;
+     
+    }
+
+    h2 {
+        grid-area: h2;
+      
+    }
+
+    nav {
+        grid-area: nav;
+        background-color: #008080;
+    }
+
+    /* ---------------------------------------------------------------*/
+    #gridContainer {
+        display: grid;
+        grid-template-areas:
+            ' par par par '
+            'form form aside '
+            'fo fo Box '
+    }
+
+    #infoP {
+        grid-area: par;
+        color: #990033;
+        letter-spacing: 1px;
+    }
+
+    form {
+        grid-area: form;
+        color: #78ebff;
+    }
+
+    aside {
+        grid-area: aside;
+      
+    }
+
+    footer {
+        grid-area: fo;
+        border-color: #22a07a;
+        border-style: double;
+        border-width: 10px;
+    }
+
+
+    #CookieStatementBox {
+        height: 100px;
+        width: 100px;
+        background-color: #FA0;
+        color: #FFF;
+        opacity: 50%;
+        grid-area: Box;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+    }
+
+    #pic1 {
+        width: 10em;
+        height: 10em;
+    }
+
+    #pic2 {
+        width: 10em;
+        height: 10em;
+    }
+
+    #pic3 {
+        width: 10em;
+        height: 10em;
+    }
+}
+
+@media screen and (max-width: 719px) { /*Resolution for : Smartphone */
+    #gridContainerHead {
+        display: grid;
+        grid-template-areas:
+            
+            'h1 h1 nav '
+            'h2 h2 nav ';
+        
+    }
+
+    img {
+        grid-area: img;
+     
+        display:none;
+    }
+
+    h1 {
+        grid-area: h1;
+       
+    }
+
+    h2 {
+        grid-area: h2;
+        
+    }
+
+    nav {
+        grid-area: nav;
+        background-color: #008080;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+    }
+    /* ---------------------------------------------------------------*/
+    #gridContainer {
+        display: grid;
+        grid-template-areas:
+            ' par par par '
+            'form form form '
+            ' aside aside aside '
+            'fo fo Box ';
+    }
+
+    #infoP {
+        grid-area: par;
+        color: #990033;
+        letter-spacing:1px;
+    }
+
+    form {
+        grid-area: form;
+        color: #78ebff;
+    }
+
+    aside {
+        grid-area: aside;
+      
+    }
+
+    footer {
+        grid-area: fo;
+        border-color: #22a07a;
+        border-style: double;
+        border-width: 10px;
+    }
+
+
+    #CookieStatementBox {
+        height: 100px;
+        width: 100px;
+        background-color: #FA0;
+        color: #FFF;
+        opacity: 50%;
+        grid-area: Box;
+        position:fixed;
+        bottom:1em;
+        right:1em;
+    }
+
+    #pic1 {
+        width: 10em;
+        height: 10em;
+    }
+
+    #pic2 {
+        width: 10em;
+        height: 10em;
+    }
+
+    #pic3 {
+        width: 10em;
+        height: 10em;
+    }
+}
