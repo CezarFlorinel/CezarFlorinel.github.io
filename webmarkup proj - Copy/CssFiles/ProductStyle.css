@@ -1,0 +1,483 @@
+
+
+a:link {
+    color: #b88600;
+}
+
+
+a:visited {
+    color: #eeff44;
+}
+
+
+a:hover {
+    color: #52ba48;
+}
+
+
+a:active {
+    color: #483d8b;
+}
+
+
+
+@media screen and (min-width: 930px) { /*Resolution for :  PC */
+    #gridContainerHead {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+            'img img img img img img img img img'
+            'h1 h1 h1 h1 h1 h1 h1 h1 h1'
+            'h2 h2 h2 h2 h2 h2 h2 h2 h2'
+            't1 t1 t1 t2 t2 t2 t3 t3 t3';
+    }
+
+     #t1 {
+        grid-area: t1;
+        display: inline-block;
+    }
+    #t2 {
+        grid-area: t2;
+        display: inline-block;
+    }
+    #t3 {
+        grid-area: t3;
+        display: inline-block;
+    }
+       
+    img {
+        grid-area: img;
+       
+        
+    }
+
+    h1 {
+        grid-area: h1;
+    
+    }
+    h2 {
+        grid-area: h2;
+       
+    }
+
+    nav {
+        grid-area: nav;
+        background-color: #008080;
+    }
+
+
+    #gridContainer {
+        background-color: #00ffff;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+            'ar2 ar2 ar2 ar2 ar1 ar1 ar1 ar3 ar3'
+            'ar2 ar2 ar2 ar2 ar1 ar1 ar1 ar3 ar3'
+            'ar5 ar5 ar5 ar5 ar1 ar1 ar1 ar3 ar3'
+            'ar5 ar5 ar5 ar5 ar1 ar1 ar1 ar4 ar4'
+            'ar5 ar5 ar5 ar5 ar1 ar1 ar1 ar4 ar4'
+            'ar5 ar5 ar5 ar5 ar1 ar1 ar1 ar4 ar4'
+            'ar5 ar5 ar5 ar5 ar6 ar6 ar6 ar6 ar6'
+            'as1 as1 as1 as1 as2 as2 as2 as3 as3'
+            'as1 as1 as1 as1 as2 as2 as2 as3 as3'
+            'as1 as1 as1 as1 as2 as2 as2 as3 as3'
+            'footer footer footer footer footer footer footer CookieBox CookieBox '
+            'footer footer footer footer footer footer footer CookieBox CookieBox ';
+
+        
+    }
+
+    #gridContainer,article{
+        color:#fff;
+    }
+
+        #gridContainer > article {
+            background-color: #ff6347;
+        }
+
+    #article1 {
+        grid-area: ar1;
+        line-height: 20px;
+        text-indent:15px;
+        word-spacing:normal;
+    }
+
+    #article2 {
+        grid-area: ar2;
+        line-height: 20px;
+        text-indent: 15px;
+        word-spacing: normal;
+    }
+
+
+    #article3 {
+        grid-area: ar3;
+        line-height: 20px;
+        text-indent: 15px;
+        word-spacing: 5px;
+    }
+
+    #article4 {
+        grid-area: ar4;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article5 {
+        grid-area: ar5;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article6 {
+        grid-area: ar6;
+        line-height: 20px;
+        text-indent: 15px;
+        word-spacing: 5px;
+    }
+
+    #gridContainer > aside {
+        
+    }
+    #gridContainer > footer {
+       
+    }
+
+    #aside1 {
+        grid-area: as1;
+    }
+
+    #aside2 {
+        grid-area: as2;
+    }
+
+    #aside3 {
+        grid-area: as3;
+    }
+
+    #footer {
+        grid-area: footer;
+    }
+
+    #CookieStatementBox {
+        height: 100px;
+        width: 100px;
+        background-color: #FA0;
+        color: #FFF;
+        opacity: 50%;
+        grid-area: CookieBox;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+    }
+
+
+}
+
+
+
+    
+
+@media screen and (min-width: 720px) and (max-width: 929px) { /*Resolution for : Tablet */
+
+    #gridContainerHead {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+            'img img img img img img img img '
+            'h1 h1 h1 h1 h1 h1 h1 h1 '
+            'h2 h2 h2 h2 h2 h2 h2 h2 '
+            't1 t1 t1 t2 t2 t2 t3 t3 t3';
+    }
+
+    #gridContainer p {
+        color: #fff;
+    }
+
+    #t1 {
+        grid-area: t1;
+        display: inline-block;
+    }
+
+    #t2 {
+        grid-area: t2;
+        display: inline-block;
+    }
+
+    #t3 {
+        grid-area: t3;
+        display: inline-block;
+    }
+
+    img {
+        grid-area: img;
+       
+    }
+
+    h1 {
+        grid-area: h1;
+        
+    }
+
+    h2 {
+        grid-area: h2;
+        
+    }
+
+    nav {
+        grid-area: nav;
+        background-color: #008080;
+    }
+
+
+    #gridContainer {
+        background-color: #00ffff;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-areas:
+            'ar1 ar1 ar1 ar1 ar2 ar2 ar2 ar2 '
+            'ar1 ar1 ar1 ar1 ar2 ar2 ar2 ar2 '
+            'ar3 ar3 ar3 ar3 ar2 ar2 ar2 ar2 '
+            'ar3 ar3 ar3 ar3 ar5 ar5 ar5 ar5 '
+            'ar3 ar3 ar3 ar3 ar5 ar5 ar5 ar5 '
+            'ar3 ar3 ar3 ar3 ar5 ar5 ar5 ar5 '
+            'ar6 ar6 ar6 ar6 ar6 ar6 ar6 ar6 '
+            'ar6 ar6 ar6 ar6 ar6 ar6 ar6 ar6 '
+            'as1 as1 as1 as1 as2 as2 as2 as2 '
+            'as1 as1 as1 as1 as2 as2 as2 as2 '
+            'footer footer footer footer CookieBox CookieBox CookieBox CookieBox  '
+            'footer footer footer footer CookieBox CookieBox CookieBox CookieBox  ';
+    }
+
+        #gridContainer > article {
+            background-color: #ff6347;
+        }
+
+    #article1 {
+        grid-area: ar1;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article2 {
+        grid-area: ar2;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+
+    #article3 {
+        grid-area: ar3;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article4 {
+        grid-area: ar4;
+        display:none;
+    }
+
+    #article5 {
+        grid-area: ar5;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article6 {
+        grid-area: ar6;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #gridContainer > aside {
+       
+    }
+
+    #gridContainer > footer {
+        
+    }
+
+    #aside1 {
+        grid-area: as1;
+    }
+    
+
+    #aside2 {
+        grid-area: as2;
+    }
+
+    #aside3 {
+        grid-area: as3;
+        display: none;
+    }
+
+    #footer {
+        grid-area: footer;
+    }
+
+    #CookieStatementBox {
+        height: 100px;
+        width: 100px;
+        background-color: #FA0;
+        color: #FFF;
+        opacity: 50%;
+        grid-area: CookieBox;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+    }
+
+}
+
+@media screen and (max-width: 719px) {               /*Resolution for : Smartphone */
+    #gridContainerHead {
+        display: grid;
+    
+    }
+
+    nav {
+        grid-area: nav;
+        position: absolute;
+        right: 1em;
+        top: 1em;
+        background-color: #008080;
+    }
+
+    img {
+        grid-area: img;
+        display: none;
+    }
+
+    h1 {
+        grid-area: h1;
+        
+    }
+
+    h2 {
+        grid-area: h2;
+       
+    }
+
+
+
+    #gridContainer {
+        background-color: #00ffff;
+        display: grid;
+        grid-template-areas:
+            'ar5 ar5 ar5 ar5 ar5 ar5 ar5 ar5 '
+            'ar5 ar5 ar5 ar5 ar5 ar5 ar5 ar5 '
+            'ar5 ar5 ar5 ar5 ar5 ar5 ar5 ar5 '
+            'ar3 ar3 ar3 ar3 ar3 ar3 ar3 ar3 '
+            'ar3 ar3 ar3 ar3 ar3 ar3 ar3 ar3 '
+            'ar3 ar3 ar3 ar3 ar3 ar3 ar3 ar3 '
+            'ar2 ar2 ar2 ar2 ar2 ar2 ar2 ar2 '
+            'ar2 ar2 ar2 ar2 ar2 ar2 ar2 ar2 '
+            'ar2 ar2 ar2 ar2 ar2 ar2 ar2 ar2 '
+            'ar1 ar1 ar1 ar1 ar1 ar1 ar1 ar1 '
+            'ar1 ar1 ar1 ar1 ar1 ar1 ar1 ar1 '
+            'ar1 ar1 ar1 ar1 ar1 ar1 ar1 ar1 '
+            'as1 as1 as1 as1 as1 as1 as1 as1 '
+            'as2 as2 as2 as2 as2 as2 as2 as2 '
+            'as3 as3 as3 as3 as3 as3 as3 as3 '
+            'footer footer footer footer footer CookieBox CookieBox CookieBox  '
+            'footer footer footer footer footer CookieBox CookieBox CookieBox  ';
+    }
+
+        #gridContainer > article {
+            background-color: #ff6347;
+        }
+
+
+        #gridContainer p {
+            color: #fff;
+        }
+
+    #pic1{
+        grid-area:pic1;
+        width:100px;
+        height:100px;
+      
+
+    }
+
+    #article1 {
+        grid-area: ar1;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article2 {
+        grid-area: ar2;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+
+    #article3 {
+        grid-area: ar3;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article4 {
+        grid-area: ar4;
+        display: none;
+    }
+
+    #article5 {
+        grid-area: ar5;
+        line-height: 20px;
+        text-indent: 15px;
+    }
+
+    #article6 {
+        grid-area: ar6;
+        display: none;
+    }
+
+    #gridContainer > aside {
+        
+    }
+
+    #gridContainer > footer {
+       
+    }
+
+
+    #aside1 {
+        grid-area: as1;
+        
+     
+    }
+
+    #aside2 {
+        grid-area: as2;
+    }
+
+    #aside3 {
+        grid-area: as3;
+        
+    }
+
+    #footer {
+        grid-area: footer;
+    }
+
+    #CookieStatementBox {
+        height: 100px;
+        width: 100px;
+        background-color: #FA0;
+        color: #FFF;
+        opacity: 50%;
+        grid-area: CookieBox;
+        position: fixed;
+        bottom: 1em;
+        right: 1em;
+    }
+
+}
+
+
+
+
+

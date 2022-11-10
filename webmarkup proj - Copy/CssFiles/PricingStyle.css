@@ -1,0 +1,330 @@
+
+
+a:link {
+    color: #b88600;
+}
+
+
+a:visited {
+    color: #eeff44;
+}
+
+
+a:hover {
+    color: #52ba48;
+}
+
+
+a:active {
+    color: #483d8b;
+}
+
+
+
+
+
+    @media screen and (min-width: 930px) { /*Resolution for :  PC */
+        .flexHead {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #t1 {
+            display: inline-block;
+        }
+
+        #t2 {
+            display: inline-block;
+        }
+
+        #t3 {
+            display: inline-block;
+        }
+
+        #pic0 {
+            flex-basis: 20%;
+            flex-grow: 0;
+        }
+
+        #h1 {
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        #h2 {
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        #nav {
+            flex-basis: 100%;
+            flex-grow: 1;
+            background-color: #008080;
+        }
+
+        .flexBody {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #article {
+            flex-basis: 100%;
+            flex-grow: 0;
+            order: 1;
+            text-indent: 15px;
+            word-spacing: 5px;
+        }
+
+        #table {
+            flex-basis: 80%;
+            flex-grow: 0;
+            order: 2;
+        }
+
+        #aside {
+            flex-basis: 20%;
+            flex-grow: 0;
+            order: 3;
+        }
+
+        #CookieStatementBox {
+            height: 100px;
+            width: 100px;
+            background-color: #FA0;
+            color: #FFF;
+            opacity: 50%;
+            flex-basis: 20%;
+            flex-grow: 0;
+            order: 5;
+            position: fixed;
+            bottom: 1em;
+            right: 1em;
+        }
+
+        #footer {
+            flex-basis: 80%;
+            flex-grow: 0;
+            order: 4;
+        }
+
+
+
+        #pic1 {
+            width: 170px;
+            height: 175px;
+        }
+
+        #pic2 {
+            width: 180px;
+            height: 180px;
+        }
+
+        #pic3 {
+            width: 180px;
+            height: 180px;
+        }
+    }
+
+    @media screen and (min-width: 720px) and (max-width: 929px) { /*Resolution for : Tablet */
+        .flexHead {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+        #t1 {
+            display: inline-block;
+        }
+
+        #t2 {
+            display: inline-block;
+        }
+
+        #t3 {
+            display: inline-block;
+        }
+
+        #pic0 {
+            flex-basis: 20%;
+            flex-grow: 0;
+        }
+
+        #h1 {
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        #h2 {
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        #nav {
+            flex-basis: 100%;
+            flex-grow: 1;
+            background-color: #008080;
+        }
+
+        /*-------------------------------------*/
+
+        .flexBody {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+        }
+
+
+
+        #table {
+            flex-basis: 100%;
+            flex-grow: 0;
+            order: 0;
+        }
+
+        #article {
+            flex-basis: 100%;
+            flex-grow: 0;
+            order: 0;
+            word-spacing: 5px;
+        }
+
+
+
+
+        .pict1 {
+            display: none;
+        }
+
+        #pict2 {
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 1;
+        }
+
+        #pic2 {
+            width: 400px;
+            height: 400px;
+        }
+
+        #pict3 {
+            flex-basis: 50%;
+            flex-grow: 0;
+            position: relative;
+            bottom: 276px;
+            left: 400px;
+        }
+
+        #CookieStatementBox {
+            height: 100px;
+            width: 100px;
+            background-color: #FA0;
+            color: #FFF;
+            opacity: 50%;
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 4;
+            position: fixed;
+            bottom: 1em;
+            right: 1em;
+        }
+
+        #footer {
+            flex-basis: 80%;
+            flex-grow: 0;
+            order: 2;
+            position: relative;
+            bottom: 276px;
+        }
+    }
+
+    @media screen and (max-width: 719px) { /*Resolution for : Smartphone */
+        .flexHead {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #pic0 {
+            flex-basis: 20%;
+            flex-grow: 0;
+            display: none;
+        }
+
+        #h1 {
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 1;
+        }
+
+        #h2 {
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 3;
+        }
+
+        #nav {
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 2;
+            background-color: #008080;
+        }
+
+
+
+        /*-------------------------------------*/
+
+        .flexBody {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #pic2 {
+            width: 300px;
+            height: 300px;
+        }
+
+
+
+        #table {
+            flex-basis: 100%;
+            flex-grow: 0;
+            order: 4;
+        }
+
+        #article {
+            flex-basis: 100%;
+            flex-grow: 0;
+            order: 0;
+            display: none;
+            word-spacing: 5px;
+        }
+
+
+
+        #aside {
+            flex-basis: 100%;
+            flex-grow: 0;
+            order: 5;
+        }
+
+
+
+        #CookieStatementBox {
+            height: 100px;
+            width: 100px;
+            background-color: #FA0;
+            color: #FFF;
+            opacity: 50%;
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 7;
+            position: fixed;
+            bottom: 1em;
+            right: 1em;
+        }
+
+        #footer {
+            flex-basis: 50%;
+            flex-grow: 0;
+            order: 6;
+        }
+    }
